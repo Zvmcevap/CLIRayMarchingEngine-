@@ -32,20 +32,13 @@ The engine comes with three predefined scenes:
 
 ## Project Structure
 
+- `CLIRayMarchingEngine/Program.cs`: The main entry point of the application.
+- `CLIRayMarchingEngine/AppManager.cs`: Handles running of the applicaiton. 
 - `CLIRayMarchingEngine/Controls/`: Contains user control handling classes.
 - `CLIRayMarchingEngine/Model/`: Contains model classes for geometric primitives and scenes.
 - `CLIRayMarchingEngine/View/`: Contains view classes for rendering the scenes.
 - `CLIRayMarchingEngine/SceneSetups.cs`: Contains methods for setting up predefined scenes.
 - `CLIRayMarchingEngine/HelpMaths.cs`: Contains helper math functions for smooth blending and lighting calculations.
-- `CLIRayMarchingEngine/Program.cs`: The main entry point of the application.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
